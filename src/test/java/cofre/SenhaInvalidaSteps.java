@@ -11,7 +11,7 @@ import static org.mockito.Mockito.*;
  *
  * @author gabriel de carli
  */
-public class TravadoCofreSteps extends CofrePMTest {
+public class SenhaInvalidaSteps extends CofrePMTest {
 
     @Given("^dado que a porta esta fechada e travada e a senha cadastrada na memoria eh \"([^\"]*)\"$")
     public void dado_que_a_porta_esta_fechada_e_travada_e_a_senha_cadastrada_na_memoria_eh(String arg1) throws Exception {

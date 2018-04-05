@@ -99,7 +99,7 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
-formatter.uri("cofre/TravarCofreTest.feature");
+formatter.uri("cofre/SenhaInvalidaTest.feature");
 formatter.feature({
   "name": "",
   "description": "  Como um usuario\n  eu quero destravar o cofre para pegar meus objetos\n  para ",
@@ -115,7 +115,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "TravadoCofreSteps.dado_que_a_porta_esta_fechada_e_travada_e_a_senha_cadastrada_na_memoria_eh(String)"
+  "location": "SenhaInvalidaSteps.dado_que_a_porta_esta_fechada_e_travada_e_a_senha_cadastrada_na_memoria_eh(String)"
 });
 formatter.result({
   "status": "passed"
@@ -125,7 +125,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "TravadoCofreSteps.o_numero(int)"
+  "location": "SenhaInvalidaSteps.o_numero(int)"
 });
 formatter.result({
   "status": "passed"
@@ -135,7 +135,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "TravadoCofreSteps.o_numero(int)"
+  "location": "SenhaInvalidaSteps.o_numero(int)"
 });
 formatter.result({
   "status": "passed"
@@ -145,7 +145,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "TravadoCofreSteps.o_numero(int)"
+  "location": "SenhaInvalidaSteps.o_numero(int)"
 });
 formatter.result({
   "status": "passed"
@@ -155,7 +155,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "TravadoCofreSteps.o_numero(int)"
+  "location": "SenhaInvalidaSteps.o_numero(int)"
 });
 formatter.result({
   "status": "passed"
@@ -165,7 +165,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "TravadoCofreSteps.o_numero(int)"
+  "location": "SenhaInvalidaSteps.o_numero(int)"
 });
 formatter.result({
   "status": "passed"
@@ -175,7 +175,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "TravadoCofreSteps.o_numero(int)"
+  "location": "SenhaInvalidaSteps.o_numero(int)"
 });
 formatter.result({
   "status": "passed"
@@ -185,7 +185,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "TravadoCofreSteps.eu_apertei_o_ok()"
+  "location": "SenhaInvalidaSteps.eu_apertei_o_ok()"
 });
 formatter.result({
   "status": "passed"
@@ -195,7 +195,108 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "TravadoCofreSteps.a_mensagem_que_apareceu_foi(String)"
+  "location": "SenhaInvalidaSteps.a_mensagem_que_apareceu_foi(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.uri("cofre/TravarCofreSenhaCorreta.feature");
+formatter.feature({
+  "name": "",
+  "description": "  Como um usuario\n  eu quero Travar o cofre para guardar minhas coisas\n  para evitar roubos",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "name": "Travar Cofre",
+  "description": "",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "name": "dado que a porta esta fechada mas a senha nao esta cadastrada e eu quero cadastrar a senha e travar a porta eu digito uma senha",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "TravarCofreSenhaCorretaSteps.dado_que_a_porta_esta_fechada_mas_a_senha_nao_esta_cadastrada_e_eu_quero_cadastrar_a_senha_e_travar_a_porta_eu_digito_uma_senha()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "apertando o numero 1",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "TravarCofreSenhaCorretaSteps.apertando_o_numero(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "apertando o numero 1",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "TravarCofreSenhaCorretaSteps.apertando_o_numero(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "apertando o numero 1",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "TravarCofreSenhaCorretaSteps.apertando_o_numero(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "apertando o numero 1",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "TravarCofreSenhaCorretaSteps.apertando_o_numero(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "apertando o numero 1",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "TravarCofreSenhaCorretaSteps.apertando_o_numero(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "apertando o numero 1",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "TravarCofreSenhaCorretaSteps.apertando_o_numero(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "eu aperto o botao de OK",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "TravarCofreSenhaCorretaSteps.eu_aperto_o_botao_de_OK()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "a mensagem que apareceu no display foi \"Senha salva. Cofre trancado\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "TravarCofreSenhaCorretaSteps.a_mensagem_que_apareceu_no_display_foi(String)"
 });
 formatter.result({
   "status": "passed"
